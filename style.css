@@ -12,6 +12,9 @@ a {
 
 :root {
     --text-color: #FFFFFF;
+    --bg-primery: #1D2BB0;
+    --bg-Success: #05BB17;
+    --bg-dark: #000000;
 }
 
 /* ----------------------header---------------------- */
@@ -58,7 +61,7 @@ a {
 .hero-sect {
     background-image: url("./assest/image/bg-hero.webp");
     background-repeat: no-repeat;
-    background-position:bottom;
+    background-position: bottom;
     background-size: cover;
     height: 658px;
     padding-top: 15.3%;
@@ -74,4 +77,63 @@ a {
 .hero-sect .players-img {
     margin: auto;
     width: 70%;
+}
+
+/* ----------------------sect-info---------------------- */
+
+.sect-info {
+    margin: auto;
+    padding: 50px;
+}
+
+.sect-info .first-row {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    width: 80%;
+    margin: auto;
+}
+
+.sect-info .first-row .bg-blue {
+    background-color: var(--bg-primery);
+    color: var(--text-color);
+    text-align: center;
+    height: 310px;
+    width: 50%;
+}
+
+.sect-info .first-row .bg-green {
+    background-color: var(--bg-Success);
+    color: var(--text-color);
+    text-align: center;
+    height: 310px;
+    width: 50%;
+}
+
+.sect-info .secend-row {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    width: 80%;
+    margin: auto;
+}
+
+.sect-info .secend-row .bg-green {
+    background-color: var(--bg-Success);
+    height: 310px;
+    width: 20%;
+}
+
+.sect-info .secend-row .bg-black {
+    background-color: var(--bg-dark);
+    color: var(--text-color);
+    text-align: center;
+    height: 310px;
+    width: 60%;
+}
+
+.sect-info .secend-row .bg-blue {
+    background-color: var(--bg-primery);
+    height: 310px;
+    width: 20%;
 }
