@@ -20,6 +20,11 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 1440px;
+    margin: auto;
 }
 
 .header .list {
@@ -46,4 +51,27 @@ a {
     border-radius: 50px;
     padding: 20px 40px;
     font-size: 20px;
+}
+
+/* ----------------------hero-sect---------------------- */
+
+.hero-sect {
+    background-image: url("./assest/image/bg-hero.webp");
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size: cover;
+    height: 658px;
+    padding-top: 15.3%;
+}
+
+.hero-sect .title {
+    color: var(--text-color);
+    font-size: 53px;
+    text-align: center;
+    margin: 0px;
+}
+
+.hero-sect .players-img {
+    margin: auto;
+    width: 70%;
 }
